@@ -14,26 +14,36 @@
         &emsp;Crea una cel·la dins d'una fila de la taula
         <br> <br><colorfondo>&lt;<u style="color: #ff0051;">table</u>&gt;<br>&emsp13;&lt;<u style="color: #ff0051;">tr</u>&gt;<br>&emsp;&lt;<u style="color: #ff0051;">td</u>&gt;Maria&lt;/<u style="color: #ff0051;">td</u>&gt;<br>&emsp;&lt;<u style="color: #ff0051;">td</u>&gt;25&lt;/<u style="color: #ff0051;">td</u>&gt;<br> &emsp13;&lt;/<u style="color: #ff0051;">tr</u>&gt;<br>&lt;/<u style="color: #ff0051;">table</u>&gt;</colorfondo>
         <h2><u>Atributs de taula</u></h2>
-        &emsp13;<h3><i>border</i></h3>
+        &emsp13;<h3><i>Border</i></h3>
         &emsp;-Afegeix una vora a la taula i a les cel·les
         &emsp13;<h3><i>Cellpadding</i></h3>
         &emsp;-Defineix l'espai entre el contingut de la cel·la i la vora de la cel·la
         &emsp13;<h3><i>Cellspacing</i></h3>
         &emsp;-Cotrola l'espai entre les cel·les de la taula
-        <br><colorfondo>&lt;<u style="color: #ff0051;">table</u> <u style="color: #4ef09f;">border</u><u style="color: #ff0051;">=</u>"<u style="color: #e9f04e;">1</u>"&gt;</colorfondo>
-        <table title="exemple de taula" border="1" cellpadding="8" cellspacing="0">
-            <tr>
-                <td>Nom</td>
-                <td>Edad</td>
-            </tr>
-            <tr>
-                <td>Maria</td>
-                <td>25</td>
-            </tr>
-            <tr>
-                <td>Joan</td>
-                <td>45</td>
-            </tr>
+        <br><colorfondo>&lt;<u style="color: #ff0051;">table</u> <u style="color: #4ef09f;">border</u><u style="color: #ff0051;">=</u>"<u style="color: #e9f04e;">1</u>" <u style="color: #4ef09f;">cellpadding</u><u style="color: #ff0051;">=</u>"<u style="color: #e9f04e;">10</u>" <u style="color: #4ef09f;">cellspacing</u><u style="color: #ff0051;">=</u>"<u style="color: #e9f04e;">5</u>"&gt;</colorfondo>
+        <h2><u>Etiqueta &lt;thead&gt;(table head)</u></h2>
+        &emsp;-Defineix l'encapçalament de la taula,agrupant les files d'encapçalament
+        <h2><u>Etiqueta &lt;tbody&gt;(Table body)</u></h2>
+        &emsp;-Agrupa les files de dades.Se sol fer servir per separar les dades del encapçalament.
+        <h2><u>Etiqueta &lt;th&gt;(table header)</u></h2>
+        &emsp;-S'utilitza per crear una cel·la d'encapçalament en una taula,dintre d'un <strong>&lt;th&gt; apareix en negreta i centrat per defecte</strong>
+        <br><table title="exemple de taula" border="1" cellpadding="8" cellspacing="0">
+            <thead>
+                <tr>
+                    <th>Nom</th>
+                    <th>Edad</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Maria</td>
+                    <td>25</td>
+                </tr>
+                <tr>
+                    <td>Joan</td>
+                    <td>45</td>
+                </tr>
+            </tbody>
         </table>
     </body>
 </html>
