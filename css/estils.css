@@ -1,0 +1,13 @@
+body{
+    margin: 0;
+}
+header{
+    height: 70px;
+    display: flex;
+    background-color: #d6c9ff;
+    align-items: center;
+}
+
+.logo{
+    display: flex;
+}
