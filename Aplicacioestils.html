@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <link rel="stylesheet" href="css/color.css">
+    <link rel="stylesheet" href="css/estils.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/colorfondo.css">
+    <head>
+        <title>Aplicació d'estils</title>
+    </head>
+    <body>
+        <h1>Aplicació d'estils</h1>
+        -El css es pot aplicar a un document HTML de tres maneres principals: <strong>en línia,incrustat</strong>(dins html) i <strong>extern</strong>
+        <h2>Estils en linia</h2>
+        -Els estils en linia s'apliquen directament a un element HTML,utilitzant l'atribut style dins de la mateixa etiqueta de l'element.Aquest metode es adequat per aplicar estils a un sol element de manera rapida
+        <h3>Avantatges</h3>
+        <ul>
+            <li>Aplicacio rapida i directa a l'element</li>
+        </ul>
+        <h3>Inconvenients</h3>
+        <ul>
+            <li>Dificulta la mantenibilitat en llocs webs grans perque caldria aplicar l'estil a cada element manualment</li>
+            <li>No aprofita la capacitat de reutilitzar els estils</li>
+        </ul>
+        <h2>Estils incrustats</h2>
+        -Els estils incrustats es col·loquen dins de la seccio &lt;head&gt; d'un document HTML,dins d'una etiqueta &lt;style&gt;
+        <h3>Avantatges</h3>
+        <ul>
+            <li>Més eficient que els estils aa diversos elements elements d'una mateixa pagina</li>
+        </ul>
+        <h3>Inconvenients</h3>
+        <ul>
+            <li>Nomes afecta la pàgina on s'aplica, no es reutilitza entre diverses pagines</li>
+            <li>Si la pagina creix masssa,pot fer mes dificil la lectura i manteniment</li>
+        </ul>
+        <h2>Estils externs</h2>
+        -Els estils externs s'emmagatzemen en un fitxer CSS separat, i s'enllacen al document HTML utilitzant l'etiqueta &lt;link&gt; dins de la secció &lt;head&gt;
+        <h3>Inconvenients</h3>
+        <ul>
+            <li>Si el fitxer CSS extern no es carrega correctament ,la pagian es mostrara sense estils</li>
+        </ul>
+        <h3>Avantatges</h3>
+        <ul>
+            <li>Permet reutilitzar els estils en divevrses pàgines web,facilitant la consistencia i mantenibilitat</li>
+            <li>Facilita la separacio entre contingut i estls</li>
+            <li>Optimitza el temps de carrega del lloc web,ja que els navegadors poden emmagatzemar en memoria cau els fitxers CSS</li>
+        </ul>
+    </body>
+</html>
