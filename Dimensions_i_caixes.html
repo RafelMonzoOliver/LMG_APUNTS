@@ -1,0 +1,35 @@
+!DOCTYPE html>
+<html>
+    <link rel="stylesheet" href="css/color.css">
+    <link rel="stylesheet" href="css/style.css">
+    <head>
+        <title>Dimensions i caixes</title>
+    </head>
+    <body>
+        <h1>Dimensions i caixes en CSS</h1>
+        -El CSS s'utilitza el <strong>model de caixa</strong> per representar els elements d'una pagina web.Cada element es considera com una caixa rectangular que conte el contingt,farcits,marges,vores,etc
+        <ul>
+            <li><strong>Contingut</strong>:El contingut real de l'element,com text,imatges o altres elements</li>
+            <li><strong>Farcit</strong>:L'espai entre el contingut i la vora</li>
+            <li><strong>Vora</strong>:El limit al volant del farcit</li>
+            <li><strong>Marge</strong>:L'espai extern entre la vora i altres elements</li>
+        </ul>
+        <h2>Propietas de dimensions</h2>
+        -Les propietats width i height s'utilitzen per definir la mida d'un element.Aquest valor pot ser definit en una unitat com pixel o percentatges.
+        <h2>El model de caixa en CSS</h2>
+        El <strong>model de caixa</strong> estableix com es calculen les dimensions d'un element ,tenint en compte les propietats de marge,farcits i vores.
+        <h3>Propietat box-sizing</h3>
+        <ul>
+            <li><strong>content-box</strong>:Nomes inclou el contingut en les dimensions,mentre que les vores i els farcits s'afegeixen a part</li>
+            <li><strong>border-box</strong>:Inclou el contingut,el farcit i la vora dins de les dimensions especificades</li>
+        </ul>
+        <h2>Control de desbordament</h2>
+        -Quan el contingut d'un element es mes gran que les dimensions especificades,el CSS ofereix la propietat overflow per controlar com es mostra el contingut que desborda
+        <h3>Els valors mes comuns</h3>
+        <ul>
+            <li><strong>visible</strong>:El contingut que desborda es mostra fora de l'element</li>
+            <li><strong>hidden</strong>:El contingut que desborda es retalla i no es mostra</li>
+            <li><strong>scroll</strong>:Mostra barres de desplaçament encara que el contingut no desbordi</li>7
+            <li><strong>auto</strong>:Mostra barres de desplaçament nomes si el contingut desborda</li>
+        </ul>
+    </body>

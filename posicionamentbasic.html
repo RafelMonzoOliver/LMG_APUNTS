@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <link rel="stylesheet" href="css/color.css">
+    <link rel="stylesheet" href="css/style.css">
+    <head>
+        <title>Posicionament bàsic en CSS</title>
+    </head>
+    <body>
+        <h1>Posicionament bàsic en CSS</h1>
+        -El CSS ofereix diverses tècniques per controlar la ubicacio els elements en una pagina web.
+        <h2>La propietat position</h2>
+        <ul>
+            <li><strong>static</strong>:Els elements es posicionen a la seva posicio original en el flux del document</li>
+            <li><strong>relative</strong>:Es posiciona l'element respecte a la seva posicio original en el flux del document.Es poden utilitzar coordenades per mourel lliurament</li>
+            <li><strong>absolute</strong>:L'element es treu del flux del document i es posiciojna respecte al seu element contenidor mes proper que tingui una posicio definida</li>
+            <li><strong>fixed</strong>:L'element es treu del flux del doument i es posiciona respecta a la finestra del navegador</li>
+            <li><strong>sticky</strong>:L'element es comporta com relative fins que arriba a un punt en el desplaçament de la pagina,després del qual es comporta com fixed</li>
+        </ul>
+        <h2>Propietats de posicionament</h2>
+        -Quan es defineix la propietat position com relative absolute,fixed o sticky ,pot utilitzar les propietats top,right,bottom i left per especificar la distancia de l'element resprecte als seus limits
+        <h2>Posicionament absolut</h2>
+        -Amb position absolute,l'element es treu completament del flux normal del document i es posiciona respecte al seu element contenidor mes proper amb position:relative ,absolute,o fixed
+        <h2>Posicionament fix</h2>
+        -Els elements amb position:Fixed es mantenen en una ubicacio fixa a la pantalla fins i tot quan l'usuari fa desplaçament
+        <h2>Posicionament enganxos</h2>
+        -Els elements amb position:Sticky es comporten com relative fins que l'usuari es desplaça,la pagina i arriba a un punt especificat,despres del qual, l'element es comporta co fixed
+        <h2>Propietat z-index</h2>
+        La propietat z-index es fa servir per controlar l'orddre de superoposicio dels elements posicionats
+    </body>
