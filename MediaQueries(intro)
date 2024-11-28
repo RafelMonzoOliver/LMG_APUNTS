@@ -1,0 +1,11 @@
+!DOCTYPE html>
+<html>
+    <link rel="stylesheet" href="css/color.css">
+    <link rel="stylesheet" href="css/style.css">
+    <head>
+        <title>MediaQueries</title>
+    </head>
+    <body>
+        <h1>Media Queries(Introducció)</h1>
+        -Les <strong>Media Queries</strong> són una característica poderosa del CSS que permet adaptar el disseny d'una pagina web en funció de les característiques del dispositiu que l'està visualitzants
+    </body>
