@@ -1,5 +1,11 @@
 body{
     margin: 0;
+    background-color: #f3ecff;
+    
+    
+}
+a{
+    color: white;
 }
 header{
     height: 70px;
@@ -7,7 +13,72 @@ header{
     background-color: #d6c9ff;
     align-items: center;
 }
+div{
+    width: 200px;
+    transition: width 0.3s ease;
+}
+
+div:hover{
+    width: 250px;
+}
 
 .logo{
     display: flex;
+}
+
+.separacio1{
+    background-color: #e5e0f7;
+    display: flex;
+    margin: 2%;
+    justify-content: space-around;
+}
+
+.fonsTema1{
+    margin-top: 15px;
+    background-image: url(imatgescss/tema1.webp);
+    height: 200px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    color: white;
+}
+.fonsTema2{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    background-image: url(imatgescss/images\ \(1\).jpeg);
+    height: 200px;
+    width: 200;
+    display: flex;
+    align-items: center;
+    color: white;
+}
+.fonsTema3{
+    margin-top: 15px;
+    background-image: url(imatgescss/tema3.jpg);
+    height: 200px;
+    width: 200;
+    display: flex;
+    align-items: center;
+    color: white;
+}
+.fonsTema4{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    background-image: url(imatgescss/Tema4.jpeg);
+    height: 200px;
+    width: 200;
+    display: flex;
+    align-items: center;
+    color: white;
+}
+.marginLletra{
+    margin-left: 66px;
+    transition: margin 0.3s ease;
+}
+marginLletra:hover{
+    margin: 70px
+}
+.imatgeAlign{
+    display: flex;
+    margin-left: 40%;
 }
