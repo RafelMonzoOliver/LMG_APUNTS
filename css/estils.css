@@ -71,6 +71,7 @@ div:hover{
     display: flex;
     align-items: center;
     color: white;
+    margin-left: 20%;
 }
 .marginLletra{
     margin-left: 66px;
