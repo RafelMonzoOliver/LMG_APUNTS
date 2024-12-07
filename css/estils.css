@@ -73,6 +73,19 @@ div:hover{
     color: white;
     margin-left: 20%;
 }
+
+.fonsApuntsTema2{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    background-image: url(imatgescss/Apunts_tema2.jpg);
+    height: 200px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    color: white;
+    margin-left: 20%;
+}
+
 .marginLletra{
     margin-left: 66px;
     margin-right: 66px;
@@ -105,6 +118,61 @@ div:hover{
     color: white;
 }
 
+.fonsTasques{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    background-image: url(imatgescss/tasquesTema2.jpeg);
+    height: 200px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+.fonsApuntsTema3{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    background-image: url(imatgescss/Apuntes_Tema3.jpg);
+    height: 200px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+.fonsApuntstema4{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    background-image: url(imatgescss/apunts_Tema4.jpeg);
+    height: 200px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+.fonsContingut{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    background-image: url(imatgescss/contingut_tema1.jpg);
+    height: 200px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+.fonsContingut2{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    background-image: url(imatgescss/contingt2.webp);
+    height: 200px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
 h1{
     margin-left: 10px;
 }
@@ -125,4 +193,14 @@ h2{
 
 .marginLletra2{
     margin-left: 41%;
+}
+
+.centraImatge{
+    display: flex;
+    align-content: center;
+    margin-left: 43%;
+}
+
+.centraImatge img{
+    margin-bottom: 10px;
 }
