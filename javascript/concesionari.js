@@ -48,3 +48,20 @@ Yamaha.marca = "Yamaha";
 Yamaha.model = "R1";
 Yamaha.any = 2020;
 Yamaha.tipus = "Esportiva"
+console.log(Yamaha);
+
+let volvo = Object.create(camion);
+
+volvo.marca = "Volvo";
+volvo.model = "FH16";
+volvo.any = 2018;
+volvo.capacitat = "20T";
+console.log(volvo);
+
+let edadcotxe =2025 - toyota.any  ;
+let edadmoto =2025 - Yamaha.any  ;
+let edadcamion = 2025 - volvo.any;
+
+console.log("La edad del toyota es " + edadcotxe + " anys");
+console.log("La edad del Yamaha es " + edadmoto + " anys");
+console.log("La edad del volvo es "+edadcamion+" anys");
