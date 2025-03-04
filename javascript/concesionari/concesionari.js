@@ -62,9 +62,6 @@ let edadcotxe =2025 - toyota.any  ;
 let edadmoto =2025 - Yamaha.any  ;
 let edadcamion = 2025 - volvo.any;
 
-console.log(toyota instanceof Object);
-
 console.log("La edad del toyota es " + edadcotxe + " anys");
 console.log("La edad del Yamaha es " + edadmoto + " anys");
 console.log("La edad del volvo es "+edadcamion+" anys");
-
